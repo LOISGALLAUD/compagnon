@@ -9,7 +9,7 @@ export const team = [
   {
     name: "Z. de Bigault de Granrut",
     role: "CFO",
-    image: "/images/zoe.jpg",
+    image: "/images/person.png",
   },
   {
     name: "M. Jacques",
@@ -19,7 +19,7 @@ export const team = [
   {
     name: "M. Lebosse",
     role: "COO",
-    image: "/images/mathieu.jpg",
+    image: "/images/person.png",
   },
   {
     name: "J. Mayer",
@@ -29,17 +29,17 @@ export const team = [
   {
     name: "N. Rettig",
     role: "CPO",
-    image: "/images/noemie.jpg",
+    image: "/images/person.png",
   },
-  {
-    name: "",
-    role: "",
-    image: "",
-  },
+  // {
+  //   name: "",
+  //   role: "",
+  //   image: "",
+  // },
   {
     name: "C. Capdeville",
     role: "CEO",
-    image: "/images/clement.jpg",
+    image: "/images/person.png",
   },
 ];
 

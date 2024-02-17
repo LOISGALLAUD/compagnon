@@ -26,10 +26,14 @@ const AboutUs = () => {
       </div>
 
       {/* Team */}
-      <div className="px-32 bg-abyss w-full">
-        <div className="grid grid-cols-3 gap-20 py-20 mx-32 my-10 rounded-xl bg-white">
+      <div
+        className="px-5
+      md:px-20
+      lg:px-32 bg-abyss w-full"
+      >
+        <div className="grid md:grid-cols-3 grid-cols-2 gap-10 py-20 my-10 rounded-xl bg-white p-10">
           {team.map((member, index) => (
-            <div key={index} className="flex flex-col items-center gap-3">
+            <div key={index} className="flex flex-col items-center">
               <img
                 src={
                   member.image
@@ -37,11 +41,18 @@ const AboutUs = () => {
                     : "https://lledogrupo.com/wp-content/uploads/2018/04/white-img.jpg"
                 }
                 alt={member.name}
-                className="w-32 h-32 object-scale-down rounded-full"
+                className="
+                w-32 h-32
+                md:w-36 md:h-36
+                lg:w-48 lg:h-48
+                xl:w-52 xl:h-52
+                object-scale-down md:rounded-full"
               />
               <div className="w-5/6 text-center flex flex-col justify-center items-center">
-                <h2 className="text-pond text-2xl font-jeko">{member.name}</h2>
-                <p className="text-abyss text-xl text-center font-jeko">
+                <h2 className="text-pond xl:text-3xl lg:text-xl sm:text-sm font-jeko">
+                  {member.name}
+                </h2>
+                <p className="text-abyss xl:text-2xl lg:text-lg sm:text-xs text-center font-jeko">
                   {member.role}
                 </p>
               </div>
