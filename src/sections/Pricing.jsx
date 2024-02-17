@@ -5,27 +5,27 @@ const Pricing = () => {
   return (
     <div>
       {/* headers */}
-      <div className="py-52 flex flex-col items-center font-jeko bg-white relative">
-        <h1 className="text-pond text-7xl pb-5">
+      <div className="xl:py-44 lg:py-32 py-14 flex flex-col items-center font-jeko bg-white relative">
+        <h1 className="text-pond 2xl:text-7xl lg:text-5xl text-3xl pb-5 m-2">
           Ready to{" "}
-          <span className="text-white font-mhoko text-9xl pl-4 pr-9 pt-4 bg-pond">
+          <span className="text-white font-mhoko 2xl:text-9xl lg:text-6xl text-4xl pl-4 lg:pr-8 pr-5 pt-4 bg-abyss">
             Dive in
           </span>
           <span className="font-bold"> ?</span>
         </h1>
-        <p className="text-3xl font-jekom text-pond text-center">
+        <p className="lg:text-3xl sm:text-xl text-md font-jekom text-pond text-center">
           We've got you covered. <br />
           Choose the plan that's right for you.
         </p>
         <img
           src="/images/couple.jpg"
           alt="couple"
-          className="h-3/4 object-cover rounded-3xl absolute left-0 top-1/2 transform -translate-y-1/2 mx-10"
+          className="2xl:h-[300px] lg:h-[210px] md:h-[160px] md:block hidden object-cover rounded-3xl absolute left-0 top-1/2 transform -translate-y-1/2 mx-10"
         />
         <img
           src="/images/journey.jpg"
           alt="couple"
-          className="h-3/4 object-cover rounded-3xl absolute right-0 top-1/2 transform -translate-y-1/2 mx-10"
+          className="2xl:h-[300px] lg:h-[210px] md:h-[160px] md:block hidden object-cover rounded-3xl absolute right-0 top-1/2 transform -translate-y-1/2 mx-10"
         />
       </div>
 

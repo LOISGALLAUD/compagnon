@@ -22,7 +22,7 @@ const HeroCard = () => {
         </div>
 
         {/* Buttons */}
-        <div className="flex flex-row lg:justify-start justify-center lg:gap-5 gap-2 lg:pt-12 pt-6">
+        <div className="flex flex-row justify-center lg:gap-5 gap-2 lg:pt-12 pt-6">
           <button className="bg-pond text-white text-center font-jekom lg:text-2xl sm:text-lg text-xs lg:py-3 py-1 rounded-lg p-3">
             Book a visit
           </button>
