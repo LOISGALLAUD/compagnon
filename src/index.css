@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Saira+Condensed:wght@200&family=Share+Tech&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Mhoko";
+  src: local("Mhoko"), url("/fonts/mhoko.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jeko";
+  src: local("Jeko"), url("/fonts/jeko.otf") format("opentype");
+}
+@font-face {
+  font-family: "Jeko Medium";
+  src: local("Jeko Medium"), url("/fonts/jeko-medium.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
