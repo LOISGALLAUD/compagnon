@@ -5,14 +5,17 @@ const AboutUs = () => {
   return (
     <div className="flex flex-col justify-center items-center ">
       {/* Headers */}
-      <div className="pt-16 flex flex-col items-center">
-        <h1 className="text-pond text-7xl font-jeko pb-5">
-          Welcome to
-          <span className="text-abyss font-mhoko text-9xl"> Compagnon</span>
+      <div className="pt-16 flex flex-col items-center w-5/6">
+        <h1 className="text-pond lg:text-7xl sm:text-5xl text-3xl font-jeko pb-5 text-center flex flex-col justify-center items-center">
+          We welcome you to
+          <span className="text-abyss font-mhoko lg:text-9xl text-6xl">
+            {" "}
+            Compagnon
+          </span>
           <img
             src="/images/broche.png"
             alt="logo"
-            className="ml-6 w-[9rem] h-[9rem] inline-block object-cover"
+            className="lg:my-6 lg:w-[7rem] lg:h-[7rem] lg:inline-block object-cover w-[3rem] h-[3rem]"
           />
         </h1>
 

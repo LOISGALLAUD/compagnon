@@ -7,7 +7,7 @@ const Nav = () => {
       {/* Content */}
       <div className="w-full z-30 py-5 px-10 flex flex-row md:justify-between justify-center bg-abyss">
         {/* Logo */}
-        <div className="flex items-center gap-7 justify-center">
+        <div className="flex items-center lg:gap-7 gap-4 justify-center">
           <img src="/images/broche.png" alt="logo" width="60rem" />
           <p className="font-mhoko text-white text-6xl pt-3">Compagnon</p>
         </div>

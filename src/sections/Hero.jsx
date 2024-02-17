@@ -12,11 +12,11 @@ const Hero = () => {
         // src="https://images.unsplash.com/photo-1560425946-7d5830202765?q=80&w=3571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         // src="https://images.unsplash.com/photo-1601988628551-6fd46e168930?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="triomphe"
-        className="absolute inset-0 object-cover w-full h-full"
+        className="absolute inset-0 object-cover lg:w-full lg:h-full w-full h-full z-0"
       />
 
       {/* Content */}
-      <div className="z-10 p-5 w-4/6 h-4/6 rounded-xl">
+      <div className="z-10 sm:p-5 sm:w-4/6 w-11/12 h-4/6">
         <HeroCard />
       </div>
     </div>
