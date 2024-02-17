@@ -2,17 +2,20 @@ import React from "react";
 
 const HeroCard = () => {
   return (
-    <div className="rounded-3xl bg-white p-20 flex justify-between items-center gap-11">
-      <div className="w-7/12">
+    <div className="rounded-3xl bg-white lg:p-20 p-10 flex justify-between items-center gap-11 h-5/6">
+      <div className="2xl:w-7/12 w-full">
         {/* Text */}
-        <div className="flex flex-col font-jeko gap-5 text-pond">
-          <h2 className="text-7xl">
+        <div className="flex flex-col font-jeko gap-5 text-pond lg:text-start text-center">
+          <h2 className="lg:text-7xl text-3xl">
             Book now your
             <br />
-            <h1 className="font-mhoko text-9xl text-abyss py-3"> Compagnon </h1>
+            <h1 className="font-mhoko lg:text-9xl md:text-6xl text-4xl text-abyss py-3">
+              {" "}
+              Compagnon{" "}
+            </h1>
             to visit Paris <span className="font-bold">!</span>
           </h2>
-          <p className="font-jekom text-xl text-abyss">
+          <p className="font-jekom text-xl text-abyss xl:block hidden">
             Discover Paris with a local guide, passionate about his city and
             willing to share his knowledge and love for "The City of Light."
           </p>
@@ -35,7 +38,7 @@ const HeroCard = () => {
       </div>
 
       {/* Illustration */}
-      <div className="w-5/12 rounded-lg">
+      <div className="w-5/12 rounded-lg hidden 2xl:block">
         <img src="/images/tourist.png" alt="tourist" />
       </div>
     </div>

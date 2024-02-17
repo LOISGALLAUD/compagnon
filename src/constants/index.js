@@ -3,33 +3,33 @@ export const tabs = ["Home", "About us", "Pricing", "Contact"];
 export const team = [
   {
     name: "V. Charlet",
-    role: "CTO",
-    image: "/images/person.png",
+    role: "COO",
+    image: "/images/valentine.jpg",
   },
   {
     name: "Z. de Bigault de Granrut",
     role: "CFO",
-    image: "/images/person.png",
+    image: "/images/zoe.jpg",
   },
   {
     name: "M. Jacques",
-    role: "CMO",
-    image: "/images/person.png",
+    role: "HR",
+    image: "/images/morgane.jpg",
   },
   {
     name: "M. Lebosse",
     role: "COO",
-    image: "/images/person.png",
+    image: "/images/mathieu.jpg",
   },
   {
     name: "J. Mayer",
-    role: "CIO",
-    image: "/images/person.png",
+    role: "CTO",
+    image: "/images/judith.jpg",
   },
   {
     name: "N. Rettig",
     role: "CPO",
-    image: "/images/person.png",
+    image: "/images/noemie.jpg",
   },
   {
     name: "",
@@ -39,7 +39,7 @@ export const team = [
   {
     name: "C. Capdeville",
     role: "CEO",
-    image: "/images/person.png",
+    image: "/images/clement.jpg",
   },
 ];
 
