@@ -5,11 +5,11 @@ const HeroCard = () => {
     <div className="rounded-3xl bg-white lg:p-20 p-10 flex justify-between items-center gap-11 h-5/6">
       <div className="2xl:w-7/12 w-full flex flex-col justify-center items-center">
         {/* Text */}
-        <div className="flex flex-col font-jeko gap-5 text-pond lg:text-start text-center">
-          <h2 className="lg:text-7xl sm:text-5xl text-3xl">
+        <div className="flex flex-col font-jeko text-pond sm:text-center text-start gap-10">
+          <h2 className="lg:text-7xl sm:text-5xl text-4xl">
             Book now your
             <br />
-            <h1 className="font-mhoko lg:text-9xl text-6xl text-abyss py-3">
+            <h1 className="font-mhoko lg:text-9xl text-7xl text-abyss py-3">
               {" "}
               Compagnon{" "}
             </h1>
@@ -38,7 +38,7 @@ const HeroCard = () => {
       </div>
 
       {/* Illustration */}
-      <div className="w-5/12 rounded-lg hidden 2xl:block">
+      <div className="w-1/2 rounded-lg hidden 2xl:block ">
         <img src="/images/tourist.png" alt="tourist" />
       </div>
     </div>

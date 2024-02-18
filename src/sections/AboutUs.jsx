@@ -19,7 +19,7 @@ const AboutUs = () => {
           />
         </h1>
 
-        <p className="w-1/2 text-center mb-14 text-2xl text-abyss font-jekom">
+        <p className="md:w-1/2 w-full text-center mb-14 md:text-2xl text-lg text-abyss font-jekom">
           Discover the team that will help you find a guide for your visit to
           Paris.
         </p>

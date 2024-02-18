@@ -53,7 +53,7 @@ const Pricing = () => {
                   </div>
                 )}
 
-                <div className="text-6xl flex flex-col justify-center items-center mt-10">
+                <div className="text-6xl flex flex-col justify-center items-center mt-5 md:mt-10">
                   <h3
                     className={`${pack.color} font-mhoko 2xl:text-8xl xl:text-7xl md:text-8xl text-6xl`}
                   >

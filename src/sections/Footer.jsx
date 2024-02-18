@@ -5,12 +5,12 @@ const Footer = () => {
     <footer className="bg-abyss text-white font-jekom items-center justify-between">
       {/* Contacts */}
       <div className="flex flex-col justify-center items-center py-5">
-        <h2 className="text-white text-4xl font-jeko text-center">
-          Got questions <span className="font-bold">?</span> We've got answers
-          <span className="font-bold"> !</span> <br />
+        <h2 className="text-white text-lg text-center">
+          Got questions ? We've got answers !
+          <br />
           Drop us a line and we'll get back to you ASAP.
         </h2>
-        <p className="text-white text-xl font-jekom pt-5">
+        <p className="text-white text-sm font-jekom pt-3">
           contact@compagnonparis.com
         </p>
       </div>
@@ -19,8 +19,8 @@ const Footer = () => {
       <div className="w-full h-[1px] bg-white" />
 
       {/* Footer content */}
-      <div className="flex justify-center gap-2 items-center py-5">
-        <span className="text-center items-center gap-3 font-thin font-jekom">
+      <div className="flex justify-center items-center py-1">
+        <span className="text-center items-center font-thin font-jekom text-xs py-2">
           2024 Loïs Gallaud <br />
           Compagnon ® All rights reserved.
         </span>
