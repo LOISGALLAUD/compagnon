@@ -49,9 +49,9 @@ const AboutUs = () => {
                 object-scale-down md:rounded-full"
               />
               <div className="w-5/6 text-center flex flex-col justify-center items-center">
-                <h2 className="text-pond xl:text-3xl lg:text-xl sm:text-sm font-jeko">
+                <h4 className="text-pond xl:text-3xl lg:text-xl sm:text-sm font-jeko lg:pt-8 pt-2">
                   {member.name}
-                </h2>
+                </h4>
                 <p className="text-abyss xl:text-2xl lg:text-lg sm:text-xs text-center font-jeko">
                   {member.role}
                 </p>

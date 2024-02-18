@@ -5,11 +5,28 @@ const Nav = () => {
   return (
     <nav className="bg-cleandark z-30 shadow-md">
       {/* Content */}
-      <div className="w-full z-30 py-5 px-10 flex flex-row md:justify-between justify-center bg-abyss">
+      <div className="w-full z-30 md:py-5 py-2 md:px-10 px-2 flex justify-between bg-abyss">
         {/* Logo */}
-        <div className="flex items-center lg:gap-7 gap-4 justify-center">
-          <img src="/images/broche.png" alt="logo" width="60rem" />
-          <p className="font-mhoko text-white text-6xl pt-3">Compagnon</p>
+        <div className="flex items-center lg:gap-7 gap-2 justify-center">
+          <img
+            src="/images/broche.png"
+            alt="logo"
+            className="w-8 h-8 md:w-16 md:h-16"
+          />
+
+          {/* Title */}
+          <p className="font-mhoko text-white md:text-6xl text-3xl pt-2">
+            Compagnon
+          </p>
+        </div>
+
+        {/* Hamburger */}
+        <div className="flex md:hidden items-center px-2">
+          <img
+            src="/images/hamburger.png"
+            alt="hamburger"
+            className="w-8 h-8"
+          />
         </div>
 
         {/* Navigation */}
