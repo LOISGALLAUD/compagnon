@@ -9,6 +9,7 @@ export default {
         pond: "#2D9596",
         abyss: "#265073",
         chili: "#E64C3C",
+        mud: "#A7A37E",
         gold: "#FFC436",
       },
       fontFamily: {

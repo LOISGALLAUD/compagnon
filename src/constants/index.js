@@ -9,7 +9,7 @@ export const team = [
   {
     name: "Z. de Bigault de Granrut",
     role: "CFO",
-    image: "/images/person.png",
+    image: "/images/zoe.jpg",
   },
   {
     name: "M. Jacques",
@@ -19,7 +19,7 @@ export const team = [
   {
     name: "M. Lebosse",
     role: "COO",
-    image: "/images/person.png",
+    image: "/images/mathieu.jpg",
   },
   {
     name: "J. Mayer",
@@ -29,7 +29,7 @@ export const team = [
   {
     name: "N. Rettig",
     role: "CPO",
-    image: "/images/person.png",
+    image: "/images/noemie.jpg",
   },
   // {
   //   name: "",
@@ -39,7 +39,7 @@ export const team = [
   {
     name: "C. Capdeville",
     role: "CEO",
-    image: "/images/person.png",
+    image: "/images/clement.jpg",
   },
 ];
 
@@ -73,7 +73,7 @@ export const packs = [
   },
   {
     title: "Signature",
-    price: 29.99,
+    price: "coming soon",
     features: [
       "Personalized guide",
       "Full trip organization",
@@ -81,6 +81,6 @@ export const packs = [
     ],
     description:
       "Personalized guide with as much time as desired, capable of organizing the entire trip from A to Z, and offers a transportation service.",
-    color: "text-chili",
+    color: "text-mud",
   },
 ];
