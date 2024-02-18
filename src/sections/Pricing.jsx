@@ -38,12 +38,12 @@ const Pricing = () => {
         />
 
         {/* Pricing */}
-        <div className="z-10 flex flex-col items-center py-40 relative">
-          <div className="flex justify-between mt-10 mx-32 w-5/6">
+        <div className="z-10 flex flex-col justify-center items-center xl:py-40 md:py-24 py-6 relative">
+          <div className="xl:flex xl:justify-between w-5/6 lg:grid-rows-3 grid grid-cols-1 gap-10 md:w-8/12">
             {packs.map((pack, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-between bg-white p-5 m-8 w-1/3 relative"
+                className="flex flex-col items-center justify-between bg-white p-5 relative shadow-2xl xl:w-1/3"
               >
                 {pack.title === "Deluxe" && (
                   <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -53,34 +53,34 @@ const Pricing = () => {
                   </div>
                 )}
 
-                <div className="text-6xl flex flex-col justify-center items-center mt-5">
-                  <h3 className={`${pack.color} font-mhoko text-8xl`}>
+                <div className="text-6xl flex flex-col justify-center items-center mt-10">
+                  <h3
+                    className={`${pack.color} font-mhoko 2xl:text-8xl xl:text-7xl md:text-8xl text-6xl`}
+                  >
                     {pack.title}
                   </h3>
 
-                  <div className="w-[25rem] h-[3px] bg-abyss my-5" />
-
-                  <p className="text-abyss text-4xl font-jekom">
+                  <p className="text-abyss 2xl:text-4xl xl:text-3xl md:text-4xl text-2xl font-jekom">
                     $ {pack.price}
                   </p>
                 </div>
 
-                <ul className="text-abyss font-jekom text-start mt-5 mx-4">
-                  {pack.features.map((feature, index) => (
-                    <li key={index}>
-                      <p className="text-lg">- {feature}</p>
-                    </li>
-                  ))}
-                </ul>
+                <div className="divide-y-2 divide-abyss text-center">
+                  <ul className="text-abyss font-jekom mt-5 mx-4">
+                    {pack.features.map((feature, index) => (
+                      <li key={index}>
+                        <p className="md:text-lg text-sm">• {feature}</p>
+                      </li>
+                    ))}
+                  </ul>
 
-                <div className="w-[25rem] h-[3px] bg-abyss my-5" />
-
-                <p className="text-abyss text-xl text-center font-jekom m-5">
-                  {pack.description}
-                </p>
+                  <p className="text-abyss md:text-xl text-md font-jekom m-5 pt-5">
+                    {pack.description}
+                  </p>
+                </div>
 
                 <button
-                  className={`bg-white border-2 text-3xl border-abyss font-jekom px-12 py-5 mt-5 mb-7 ${pack.color}`}
+                  className={`bg-white border-2 lg:text-2xl text-lg border-abyss font-jekom lg:px-12 px-6 lg:py-5 py-2 ${pack.color}`}
                 >
                   Choose plan
                 </button>

@@ -46,7 +46,7 @@ export const team = [
 export const packs = [
   {
     title: "Classic",
-    price: 0,
+    price: 0.99,
     features: [
       "Short-duration",
       "Meeting point",
@@ -59,7 +59,7 @@ export const packs = [
   },
   {
     title: "Deluxe",
-    price: 15,
+    price: 15.99,
     features: [
       "Medium-duration",
       "Shorter visits",
@@ -73,7 +73,7 @@ export const packs = [
   },
   {
     title: "Signature",
-    price: 29,
+    price: 29.99,
     features: [
       "Personalized guide",
       "Full trip organization",
