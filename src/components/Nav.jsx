@@ -9,7 +9,7 @@ const Nav = () => {
         {/* Logo */}
         <div className="flex items-center lg:gap-7 gap-2 justify-center">
           <img
-            src="/images/broche.png"
+            src="/images/logo.png"
             alt="logo"
             className="w-8 h-8 md:w-16 md:h-16"
           />

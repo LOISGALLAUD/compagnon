@@ -13,7 +13,7 @@ const AboutUs = () => {
             Compagnon
           </span>
           <img
-            src="/images/broche.png"
+            src="/images/logo.png"
             alt="logo"
             className="lg:my-6 lg:w-[7rem] lg:h-[7rem] lg:inline-block object-cover w-[3rem] h-[3rem]"
           />

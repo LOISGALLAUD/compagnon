@@ -46,20 +46,15 @@ export const team = [
 export const packs = [
   {
     title: "Classic",
-    price: 0.99,
-    features: [
-      "Short-duration",
-      "Meeting point",
-      "1-hour tour",
-      "Specific location",
-    ],
+    price: "Mille balles putain",
+    features: ["Short-duration", "Meeting point", "Specific location"],
     description:
-      "Short-duration guide, for example, a meeting point and 1-hour tour for a specific location.",
+      "Short-duration guide, for example, a meeting point for a specific location.",
     color: "text-grass",
   },
   {
     title: "Deluxe",
-    price: 15.99,
+    price: "TRES TRES cher",
     features: [
       "Medium-duration",
       "Shorter visits",
