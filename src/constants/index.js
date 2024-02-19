@@ -46,7 +46,7 @@ export const team = [
 export const packs = [
   {
     title: "Classic",
-    price: "Mille balles putain",
+    price: "",
     features: ["Short-duration", "Meeting point", "Specific location"],
     description:
       "Short-duration guide, for example, a meeting point for a specific location.",
@@ -54,7 +54,7 @@ export const packs = [
   },
   {
     title: "Deluxe",
-    price: "TRES TRES cher",
+    price: "",
     features: [
       "Medium-duration",
       "Shorter visits",

@@ -61,9 +61,7 @@ const Pricing = () => {
                   </h3>
 
                   <p className="text-abyss 2xl:text-4xl xl:text-3xl md:text-4xl text-2xl font-jekom italic">
-                    {pack.title === "Signature"
-                      ? pack.price
-                      : `$ ${pack.price}`}
+                    {pack.price}
                   </p>
                 </div>
 
